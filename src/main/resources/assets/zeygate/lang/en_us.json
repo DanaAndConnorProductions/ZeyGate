@@ -1,8 +1,4 @@
 {
   "block.zeygate.copper_ore": "Copper Ore",
-  "item.zeygate.copper_ingot": "Copper Ingot",
-  "item.zeygate.copper_helmet": "Copper Helmet",
-  "item.zeygate.copper_leggings": "Copper Leggings",
-  "item.zeygate.copper_chestplate": "Copper Chestplate",
-  "item.zeygate.copper_boots": "Copper Boots"
+  "item.zeygate.copper_ingot": "Copper Ingot"
 }
