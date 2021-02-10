@@ -32,7 +32,7 @@ public class CopperSwordItem extends ZeygateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2.9f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {

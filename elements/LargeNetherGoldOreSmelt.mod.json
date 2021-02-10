@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.5,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:LargeNetherGoldOre"
+    },
+    "smeltingReturnStack": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "name": "large_nether_gold_ore_smelt",
+    "namespace": "mod"
+  }
+}

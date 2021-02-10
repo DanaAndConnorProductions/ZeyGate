@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zeygate:blocks/resolidified_netherrack",
+    "particle": "zeygate:blocks/resolidified_netherrack"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:blasting",
+  "experience": 1.5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "zeygate:large_nether_gold_ore"
+  },
+  "result": {
+    "item": "minecraft:gold_block"
+  }
+}

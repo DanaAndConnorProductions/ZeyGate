@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.2,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Netherrough"
+    },
+    "smeltingReturnStack": {
+      "value": "Blocks.NETHER_BRICK"
+    },
+    "name": "netherrough_furnace",
+    "namespace": "mod"
+  }
+}

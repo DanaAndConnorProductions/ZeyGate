@@ -261,6 +261,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_sword"
+    },
+    {
+      "name": "Netherrough",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrough"
+    },
+    {
+      "name": "LargeNetherGoldOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_nether_gold_ore"
+    },
+    {
+      "name": "NetherroughFurnace",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrough_furnace"
+    },
+    {
+      "name": "LargeNetherGoldOreSmelt",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_nether_gold_ore_smelt"
+    },
+    {
+      "name": "LargeNetherGoldOreBlasting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_nether_gold_ore_blasting"
     }
   ],
   "variable_elements": [],
@@ -270,6 +315,7 @@
       "item.zeygate.rosegold_helmet": "Rosegold Helmet",
       "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
+      "block.zeygate.netherrough": "Netherrough",
       "item.zeygate.wood_leggings": "Wood Leggings",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.rosegold_boots": "Rosegold Boots",
@@ -284,6 +330,7 @@
       "item.zeygate.copper_helmet": "Copper Helmet",
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
+      "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
       "item.zeygate.copper_axe": "Copper Axe",
       "item.zeygate.wood_boots": "Wood Boots",
       "item.zeygate.copper_sword": "Copper Sword"

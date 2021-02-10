@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zeygate:blocks/large_nether_gold_ore",
+    "particle": "zeygate:blocks/large_nether_gold_ore"
+  }
+}

@@ -33,7 +33,7 @@ public class RosegoldSwordItem extends ZeygateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4.9f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
