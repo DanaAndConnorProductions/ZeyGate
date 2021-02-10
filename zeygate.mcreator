@@ -111,22 +111,81 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_axe"
+    },
+    {
+      "name": "WoodHelmetCraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_helmet_craft"
+    },
+    {
+      "name": "CopperHelmetCraft2",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_helmet_craft_2"
+    },
+    {
+      "name": "CopperBootsCraft2",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_boots_craft_2"
+    },
+    {
+      "name": "WoodChestplateCraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_chestplate_craft"
+    },
+    {
+      "name": "WoodHelmetCraft2",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_helmet_craft_2"
+    },
+    {
+      "name": "Rosegold",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.zeygate.wood_leggings": "Wood Leggings",
+      "item.zeygate.wood_helmet": "Wood Helmet",
+      "item.zeygate.copper_boots": "Copper Boots",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
       "item.zeygate.copper_ingot": "Copper Ingot",
       "item.zeygate.copper_helmet": "Copper Helmet",
-      "item.zeygate.wood_leggings": "Wood Leggings",
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
-      "item.zeygate.wood_helmet": "Wood Helmet",
-      "item.zeygate.copper_boots": "Copper Boots",
-      "item.zeygate.copper_axe": "Copper Axe",
       "item.zeygate.wood_boots": "Wood Boots"
     }
   },
