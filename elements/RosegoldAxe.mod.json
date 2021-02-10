@@ -3,25 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_axe",
+    "texture": "rose_gold_axe",
     "customModelName": "Normal",
-    "name": "Copper Axe",
+    "name": "Rosegold Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Axe",
-    "harvestLevel": 1,
-    "efficiency": 5.0,
-    "attackSpeed": 1.1,
-    "enchantability": 15,
-    "damageVsEntity": 8.0,
-    "usageCount": 150,
+    "harvestLevel": 2,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0999999999999999,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:CopperIngot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
       }
     ],
     "immuneToFire": false,

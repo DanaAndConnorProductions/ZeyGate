@@ -24,7 +24,7 @@ public class CopperAxeItem extends ZeygateModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 150;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class CopperAxeItem extends ZeygateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class CopperAxeItem extends ZeygateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 1, -3.2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.9f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("copper_axe"));
 	}
 }

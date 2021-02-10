@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_axe",
+    "texture": "copper_sword",
     "customModelName": "Normal",
-    "name": "Copper Axe",
+    "name": "Copper Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
-    "toolType": "Axe",
+    "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 5.0,
-    "attackSpeed": 1.1,
-    "enchantability": 15,
-    "damageVsEntity": 8.0,
+    "efficiency": 14.0,
+    "attackSpeed": 1.7000000000000002,
+    "enchantability": 20,
+    "damageVsEntity": 4.9,
     "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,

@@ -3,25 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "copper_axe",
+    "texture": "rose_gold_sword",
     "customModelName": "Normal",
-    "name": "Copper Axe",
+    "name": "Rosegold Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
-    "toolType": "Axe",
-    "harvestLevel": 1,
-    "efficiency": 5.0,
-    "attackSpeed": 1.1,
-    "enchantability": 15,
-    "damageVsEntity": 8.0,
-    "usageCount": 150,
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 14.0,
+    "attackSpeed": 1.7000000000000002,
+    "enchantability": 20,
+    "damageVsEntity": 6.9,
+    "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:CopperIngot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
       }
     ],
     "immuneToFire": false,

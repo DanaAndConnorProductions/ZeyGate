@@ -180,6 +180,87 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rosegold_pickaxe"
+    },
+    {
+      "name": "RosegoldPickaxeSmith",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_pickaxe_smith"
+    },
+    {
+      "name": "RosegoldHelmetSmith",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_helmet_smith"
+    },
+    {
+      "name": "RosegoldChestplateSmith",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_chestplate_smith"
+    },
+    {
+      "name": "RosegoldLeggingsSmith",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_leggings_smith"
+    },
+    {
+      "name": "RosegoldBootsSmith",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_boots_smith"
+    },
+    {
+      "name": "RosegoldAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_axe"
+    },
+    {
+      "name": "RosegoldSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_sword"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pickaxe"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_sword"
     }
   ],
   "variable_elements": [],
@@ -187,9 +268,12 @@
   "language_map": {
     "en_us": {
       "item.zeygate.rosegold_helmet": "Rosegold Helmet",
+      "item.zeygate.rosegold_axe": "Rosegold Axe",
+      "item.zeygate.rosegold_sword": "Rosegold Sword",
       "item.zeygate.wood_leggings": "Wood Leggings",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.rosegold_boots": "Rosegold Boots",
+      "item.zeygate.copper_pickaxe": "Copper Pickaxe",
       "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.copper_boots": "Copper Boots",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
@@ -201,7 +285,8 @@
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
       "item.zeygate.copper_axe": "Copper Axe",
-      "item.zeygate.wood_boots": "Wood Boots"
+      "item.zeygate.wood_boots": "Wood Boots",
+      "item.zeygate.copper_sword": "Copper Sword"
     }
   },
   "workspaceSettings": {
