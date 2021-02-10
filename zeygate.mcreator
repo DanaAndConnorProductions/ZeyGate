@@ -36,15 +36,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ore_to_ingot_2"
-    },
-    {
-      "name": "NewCrafter",
-      "type": "gui",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "new_crafter"
     }
   ],
   "variable_elements": [],
