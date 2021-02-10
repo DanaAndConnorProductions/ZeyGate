@@ -1,4 +1,16 @@
 {
+  "item.zeygate.rosegold_helmet": "Rosegold Helmet",
+  "item.zeygate.wood_leggings": "Wood Leggings",
+  "item.zeygate.rosegold_leggings": "Rosegold Leggings",
+  "item.zeygate.rosegold_boots": "Rosegold Boots",
+  "item.zeygate.wood_helmet": "Wood Helmet",
+  "item.zeygate.copper_boots": "Copper Boots",
+  "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
   "block.zeygate.copper_ore": "Copper Ore",
-  "item.zeygate.copper_ingot": "Copper Ingot"
+  "item.zeygate.wood_chestplate": "Wood Chestplate",
+  "item.zeygate.copper_ingot": "Copper Ingot",
+  "item.zeygate.copper_helmet": "Copper Helmet",
+  "item.zeygate.copper_leggings": "Copper Leggings",
+  "item.zeygate.copper_chestplate": "Copper Chestplate",
+  "item.zeygate.wood_boots": "Wood Boots"
 }

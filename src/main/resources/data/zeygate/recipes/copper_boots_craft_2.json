@@ -1,0 +1,26 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "zeygate:copper_ingot"
+    },
+    "2": {
+      "item": "zeygate:copper_ingot"
+    },
+    "3": {
+      "item": "zeygate:copper_ingot"
+    },
+    "5": {
+      "item": "zeygate:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "zeygate:copper_boots",
+    "count": 1
+  }
+}
