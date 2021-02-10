@@ -36,6 +36,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ore_to_ingot_2"
+    },
+    {
+      "name": "Copper",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CopperHelmetCraft",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_helmet_craft"
+    },
+    {
+      "name": "CopperChestplateCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_chestplate_craft"
+    },
+    {
+      "name": "CopperLeggingsCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_leggings_craft"
+    },
+    {
+      "name": "CopperBootsCraft",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_boots_craft"
     }
   ],
   "variable_elements": [],
@@ -43,7 +94,11 @@
   "language_map": {
     "en_us": {
       "block.zeygate.copper_ore": "Copper Ore",
-      "item.zeygate.copper_ingot": "Copper Ingot"
+      "item.zeygate.copper_ingot": "Copper Ingot",
+      "item.zeygate.copper_helmet": "Copper Helmet",
+      "item.zeygate.copper_leggings": "Copper Leggings",
+      "item.zeygate.copper_chestplate": "Copper Chestplate",
+      "item.zeygate.copper_boots": "Copper Boots"
     }
   },
   "workspaceSettings": {
