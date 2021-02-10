@@ -117,16 +117,16 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.zeygate.wood_leggings": "Wood Leggings",
+      "item.zeygate.wood_helmet": "Wood Helmet",
+      "item.zeygate.copper_boots": "Copper Boots",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
       "item.zeygate.copper_ingot": "Copper Ingot",
       "item.zeygate.copper_helmet": "Copper Helmet",
       "item.zeygate.copper_leggings": "Copper Leggings",
-      "item.zeygate.wood_leggings": "Wood Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
-      "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.copper_axe": "Copper Axe",
-      "item.zeygate.copper_boots": "Copper Boots",
       "item.zeygate.wood_boots": "Wood Boots"
     }
   },
