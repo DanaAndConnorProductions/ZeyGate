@@ -186,16 +186,11 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.zeygate.rosegold_helmet": "Rosegold Helmet",
-      "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.wood_leggings": "Wood Leggings",
-      "item.zeygate.rosegold_boots": "Rosegold Boots",
       "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.copper_boots": "Copper Boots",
-      "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
-      "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
       "item.zeygate.copper_ingot": "Copper Ingot",
       "item.zeygate.copper_helmet": "Copper Helmet",
       "item.zeygate.copper_leggings": "Copper Leggings",
