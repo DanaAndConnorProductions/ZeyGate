@@ -36,6 +36,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ore_to_ingot_2"
+    },
+    {
+      "name": "Wood",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -43,7 +58,11 @@
   "language_map": {
     "en_us": {
       "block.zeygate.copper_ore": "Copper Ore",
-      "item.zeygate.copper_ingot": "Copper Ingot"
+      "item.zeygate.wood_chestplate": "Wood Chestplate",
+      "item.zeygate.copper_ingot": "Copper Ingot",
+      "item.zeygate.wood_leggings": "Wood Leggings",
+      "item.zeygate.wood_helmet": "Wood Helmet",
+      "item.zeygate.wood_boots": "Wood Boots"
     }
   },
   "workspaceSettings": {
