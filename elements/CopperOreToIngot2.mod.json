@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.7,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:CopperOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:CopperIngot"
+    },
+    "name": "copper_ore_to_ingot_2",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "zeygate:copper_ore"
+  },
+  "result": {
+    "item": "zeygate:copper_ingot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "zeygate:copper_ore"
+  },
+  "result": {
+    "item": "zeygate:copper_ingot"
+  }
+}
