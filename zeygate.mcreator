@@ -104,6 +104,15 @@
       }
     },
     {
+      "name": "WoodHelmetCraft",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_helmet_craft"
+    },
+    {
       "name": "CopperHelmetCraft2",
       "type": "recipe",
       "sortid": 10,
@@ -122,13 +131,13 @@
       "registry_name": "copper_boots_craft_2"
     },
     {
-      "name": "WoodHelmetCraft",
+      "name": "WoodChestplateCraft",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "wood_helmet_craft"
+      "registry_name": "wood_chestplate_craft"
     },
     {
       "name": "WoodHelmetCraft2",
@@ -138,15 +147,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_helmet_craft_2"
-    },
-    {
-      "name": "WoodChestplateCraft",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wood_chestplate_craft"
     },
     {
       "name": "Rosegold",
@@ -162,6 +162,15 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_axe"
     }
   ],
   "variable_elements": [],
