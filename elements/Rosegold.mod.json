@@ -42,12 +42,12 @@
     "damageValueHelmet": 3,
     "damageValueBody": 7,
     "damageValueLeggings": 6,
-    "damageValueBoots": 3,
+    "damageValueBoots": 2,
     "enchantability": 22,
-    "toughness": 0.5,
+    "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_gold"
+      "value": "item.armor.equip_iron"
     },
     "repairItems": [
       {

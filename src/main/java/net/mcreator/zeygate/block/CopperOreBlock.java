@@ -88,6 +88,6 @@ public class CopperOreBlock extends ZeygateModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 16)).range(83).square().func_242731_b(20));
+		}, block.getDefaultState(), 15)).range(100).square().func_242731_b(20));
 	}
 }
