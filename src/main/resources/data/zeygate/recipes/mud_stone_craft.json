@@ -1,0 +1,22 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeygate:mud"
+    },
+    {
+      "item": "zeygate:mud"
+    },
+    {
+      "item": "zeygate:mud"
+    },
+    {
+      "item": "zeygate:mud"
+    }
+  ],
+  "result": {
+    "item": "zeygate:mud_stone",
+    "count": 4
+  }
+}

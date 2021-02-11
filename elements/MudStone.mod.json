@@ -2,7 +2,7 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "mud",
+    "texture": "mudstone",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -17,25 +17,25 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
     "Mx": 1.0,
-    "My": 0.9,
+    "My": 1.0,
     "Mz": 1.0,
-    "name": "Mud",
+    "name": "Mud Stone",
     "specialInfo": [],
-    "hardness": 0.7000000000000001,
-    "resistance": 10.0,
+    "hardness": 1.25,
+    "resistance": 5.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -46,7 +46,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "EARTH"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -110,12 +110,6 @@
         "value": "jungle_edge"
       },
       {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "bamboo_jungle_hills"
-      },
-      {
         "value": "mutated_swampland"
       },
       {
@@ -123,22 +117,25 @@
       },
       {
         "value": "mutated_jungle_edge"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.DIRT#0"
+        "value": "Blocks.STONE"
       },
       {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": "Blocks.GRAVEL"
+        "value": "Blocks.STONE#4"
       }
     ],
-    "frequencyPerChunks": 20,
-    "frequencyOnChunk": 40,
-    "minGenerateHeight": 58,
-    "maxGenerateHeight": 68
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 50,
+    "minGenerateHeight": 42,
+    "maxGenerateHeight": 80
   }
 }

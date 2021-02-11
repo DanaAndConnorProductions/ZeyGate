@@ -360,6 +360,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mud_bricks_craft"
+    },
+    {
+      "name": "MudStone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_stone"
+    },
+    {
+      "name": "MudStoneCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_stone_craft"
     }
   ],
   "variable_elements": [],
@@ -367,8 +385,8 @@
   "language_map": {
     "en_us": {
       "item.zeygate.rosegold_helmet": "Rosegold Helmet",
-      "item.zeygate.rosegold_axe": "Rosegold Axe",
       "block.zeygate.mud": "Mud",
+      "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.copper_boots": "Copper Boots",
       "item.zeygate.copper_leggings": "Copper Leggings",
@@ -383,6 +401,7 @@
       "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
+      "block.zeygate.mud_stone": "Mud Stone",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",

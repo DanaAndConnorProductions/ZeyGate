@@ -16,21 +16,15 @@ import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Direction;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.DirectionProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
@@ -42,11 +36,11 @@ import java.util.List;
 import java.util.Collections;
 
 @ZeygateModElements.ModElement.Tag
-public class NetherroughBlock extends ZeygateModElements.ModElement {
-	@ObjectHolder("zeygate:netherrough")
+public class MudStoneBlock extends ZeygateModElements.ModElement {
+	@ObjectHolder("zeygate:mud_stone")
 	public static final Block block = null;
-	public NetherroughBlock(ZeygateModElements instance) {
-		super(instance, 26);
+	public MudStoneBlock(ZeygateModElements instance) {
+		super(instance, 37);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -57,31 +51,10 @@ public class NetherroughBlock extends ZeygateModElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
-		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.NETHERRACK).hardnessAndResistance(0.8f, 0.8f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.25f, 5f).setLightLevel(s -> 0)
 					.harvestLevel(0).harvestTool(ToolType.PICKAXE));
-			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("netherrough");
-		}
-
-		@Override
-		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(FACING);
-		}
-
-		public BlockState rotate(BlockState state, Rotation rot) {
-			return state.with(FACING, rot.rotate(state.get(FACING)));
-		}
-
-		public BlockState mirror(BlockState state, Mirror mirrorIn) {
-			return state.rotate(mirrorIn.toRotation(state.get(FACING)));
-		}
-
-		@Override
-		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			;
-			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+			setRegistryName("mud_stone");
 		}
 
 		@Override
@@ -94,21 +67,44 @@ public class NetherroughBlock extends ZeygateModElements.ModElement {
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("swamp").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("jungle_edge").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("swamp_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_jungle_edge").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("bamboo_jungle_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> new OreFeature(OreFeatureConfig.CODEC) {
 			@Override
 			public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 				boolean dimensionCriteria = false;
-				if (dimensionType == World.THE_NETHER)
+				if (dimensionType == World.OVERWORLD)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
 				return super.generate(world, generator, rand, pos, config);
 			}
-		}.withConfiguration(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.NETHERRACK.getDefaultState().getBlock()) {
+		}.withConfiguration(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.STONE.getDefaultState().getBlock()) {
 			public boolean test(BlockState blockAt, Random random) {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
+				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.POLISHED_DIORITE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
 			}
@@ -116,6 +112,6 @@ public class NetherroughBlock extends ZeygateModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 40)).range(25).square().func_242731_b(32));
+		}, block.getDefaultState(), 50)).range(80).square().func_242731_b(32));
 	}
 }
