@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "zeygate:mud"
+      "item": "minecraft:stone"
     },
     {
       "item": "zeygate:mud"
@@ -12,7 +12,7 @@
       "item": "zeygate:mud"
     },
     {
-      "item": "zeygate:mud"
+      "item": "minecraft:stone"
     }
   ],
   "result": {
