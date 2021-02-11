@@ -1,0 +1,22 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "zeygate:mud"
+    },
+    {
+      "item": "zeygate:mud"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "result": {
+    "item": "zeygate:mud_bricks",
+    "count": 3
+  }
+}

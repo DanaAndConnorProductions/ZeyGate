@@ -333,6 +333,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowstone_thumpets_craft"
+    },
+    {
+      "name": "Mud",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud"
+    },
+    {
+      "name": "MudBricks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_bricks"
+    },
+    {
+      "name": "MudBricksCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_bricks_craft"
     }
   ],
   "variable_elements": [],
@@ -341,14 +368,19 @@
     "en_us": {
       "item.zeygate.rosegold_helmet": "Rosegold Helmet",
       "item.zeygate.rosegold_axe": "Rosegold Axe",
+      "block.zeygate.mud": "Mud",
+      "item.zeygate.rosegold_leggings": "Rosegold Leggings",
+      "item.zeygate.copper_boots": "Copper Boots",
+      "item.zeygate.copper_leggings": "Copper Leggings",
+      "item.zeygate.copper_chestplate": "Copper Chestplate",
+      "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
+      "block.zeygate.mud_bricks": "Mud Bricks",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
       "block.zeygate.netherrough": "Netherrough",
       "item.zeygate.wood_leggings": "Wood Leggings",
-      "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.rosegold_boots": "Rosegold Boots",
       "item.zeygate.copper_pickaxe": "Copper Pickaxe",
       "item.zeygate.wood_helmet": "Wood Helmet",
-      "item.zeygate.copper_boots": "Copper Boots",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
       "block.zeygate.copper_ore": "Copper Ore",
@@ -356,9 +388,6 @@
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
       "item.zeygate.copper_ingot": "Copper Ingot",
       "item.zeygate.copper_helmet": "Copper Helmet",
-      "item.zeygate.copper_leggings": "Copper Leggings",
-      "item.zeygate.copper_chestplate": "Copper Chestplate",
-      "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
       "item.zeygate.copper_axe": "Copper Axe",
       "item.zeygate.wood_boots": "Wood Boots",
       "item.zeygate.copper_sword": "Copper Sword"
