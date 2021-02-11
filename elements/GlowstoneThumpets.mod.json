@@ -2,16 +2,16 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "resolidified_netherrack",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 1,
-    "emissiveRendering": false,
+    "texture": "glowstone_thumpet_top",
+    "textureTop": "glowstone_thumpet_top",
+    "textureLeft": "glowstone_thumpets",
+    "textureFront": "glowstone_thumpets",
+    "textureRight": "glowstone_thumpets",
+    "textureBack": "glowstone_thumpets",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -26,10 +26,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Netherrough",
+    "name": "Glowstone Thumpets",
     "specialInfo": [],
-    "hardness": 0.8,
-    "resistance": 0.8,
+    "hardness": 0.9,
+    "resistance": 9.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -39,14 +39,14 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 225,
+    "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -64,9 +64,9 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHERRACK"
+      "value": "GLASS"
     },
-    "luminance": 0,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,
@@ -93,18 +93,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 32,
-    "frequencyOnChunk": 32,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 25
+    "maxGenerateHeight": 64
   }
 }

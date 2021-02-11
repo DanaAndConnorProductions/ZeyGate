@@ -88,6 +88,6 @@ public class LargeNetherGoldOreBlock extends ZeygateModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 5)).range(20).square().func_242731_b(3));
+		}, block.getDefaultState(), 2)).range(50).square().func_242731_b(10));
 	}
 }

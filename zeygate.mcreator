@@ -306,6 +306,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "large_nether_gold_ore_blasting"
+    },
+    {
+      "name": "NetherwartBlockUncraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherwart_block_uncraft"
+    },
+    {
+      "name": "GlowstoneThumpets",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowstone_thumpets"
+    },
+    {
+      "name": "GlowstoneThumpetsCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowstone_thumpets_craft"
     }
   ],
   "variable_elements": [],
@@ -323,6 +350,7 @@
       "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.copper_boots": "Copper Boots",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
+      "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
