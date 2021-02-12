@@ -102,8 +102,8 @@
         "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 32,
-    "frequencyOnChunk": 45,
+    "frequencyPerChunks": 40,
+    "frequencyOnChunk": 50,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 28
   }

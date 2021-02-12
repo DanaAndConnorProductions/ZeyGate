@@ -116,6 +116,6 @@ public class NetherroughBlock extends ZeygateModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 45)).range(28).square().func_242731_b(32));
+		}, block.getDefaultState(), 50)).range(28).square().func_242731_b(40));
 	}
 }
