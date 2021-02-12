@@ -33,7 +33,7 @@ public class RosegoldSwordItem extends ZeygateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 1.9999999999999996f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class RosegoldSwordItem extends ZeygateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)), new ItemStack(Items.GOLD_INGOT, (int) (1)));
 			}
-		}, 3, -2.2999999999999998f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("rosegold_sword"));
 	}
 }

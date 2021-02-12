@@ -46,7 +46,7 @@ public class CopperSwordItem extends ZeygateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 3, -2.2999999999999998f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("copper_sword"));
 	}
 }

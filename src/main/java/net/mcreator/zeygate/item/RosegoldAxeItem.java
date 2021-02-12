@@ -33,7 +33,7 @@ public class RosegoldAxeItem extends ZeygateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class RosegoldAxeItem extends ZeygateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)), new ItemStack(Items.GOLD_INGOT, (int) (1)));
 			}
-		}, 1, -2.9000000000000001f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.7999999999999998f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("rosegold_axe"));
 	}
 }

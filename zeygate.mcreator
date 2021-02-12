@@ -405,6 +405,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soul_stone"
+    },
+    {
+      "name": "LiquidIron",
+      "type": "fluid",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liquid_iron"
     }
   ],
   "variable_elements": [],
@@ -416,6 +425,7 @@
       "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.copper_boots": "Copper Boots",
+      "fluid.liquid_iron": "LiquidIron",
       "block.zeygate.soul_stone": "Soul Stone",
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
@@ -431,6 +441,7 @@
       "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
       "block.zeygate.mud_stone": "Mud Stone",
       "block.zeygate.copper_ore": "Copper Ore",
+      "item.zeygate.liquid_iron_bucket": "LiquidIron Bucket",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
       "item.zeygate.copper_ingot": "Copper Ingot",

@@ -46,7 +46,7 @@ public class CopperAxeItem extends ZeygateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 1, -2.9f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2.9000000000000001f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("copper_axe"));
 	}
 }
