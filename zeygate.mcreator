@@ -414,6 +414,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "liquid_iron"
+    },
+    {
+      "name": "GrassBlade",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_blade"
+    },
+    {
+      "name": "IceSickleLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_sickle_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceSickle",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_sickle"
     }
   ],
   "variable_elements": [],
@@ -421,8 +456,10 @@
   "language_map": {
     "en_us": {
       "item.zeygate.rosegold_helmet": "Rosegold Helmet",
+      "item.zeygate.ice_sickle": "Ice Sickle",
       "block.zeygate.mud": "Mud",
       "item.zeygate.rosegold_axe": "Rosegold Axe",
+      "item.zeygate.grass_blade": "Grass Blade",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
       "item.zeygate.copper_boots": "Copper Boots",
       "fluid.liquid_iron": "LiquidIron",
