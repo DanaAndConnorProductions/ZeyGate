@@ -50,8 +50,8 @@ public class SwordShrineStructure extends ZeygateModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 25000) {
-					int count = random.nextInt(0) + 2;
+				if ((random.nextInt(1000000) + 1) <= 40000) {
+					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
@@ -61,11 +61,13 @@ public class SwordShrineStructure extends ZeygateModElements.ModElement {
 						boolean blockCriteria = false;
 						if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 							blockCriteria = true;
+						if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
+							blockCriteria = true;
 						if (!blockCriteria)
 							continue;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i + 0, j + 30, k + 0);
+						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();

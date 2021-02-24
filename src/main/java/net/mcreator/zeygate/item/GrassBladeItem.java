@@ -5,11 +5,9 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.zeygate.ZeygateModElements;
 
@@ -41,13 +39,13 @@ public class GrassBladeItem extends ZeygateModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Blocks.DANDELION, (int) (1)), new ItemStack(Blocks.POPPY, (int) (1)));
+				return Ingredient.EMPTY;
 			}
-		}, 3, -1.8f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -1.8000000000000003f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("grass_blade"));
 	}
 }

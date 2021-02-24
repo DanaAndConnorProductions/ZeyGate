@@ -38,7 +38,7 @@ public class IceSickleItem extends ZeygateModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -52,7 +52,7 @@ public class IceSickleItem extends ZeygateModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 0, -3.2000000000000001f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 0, -3.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

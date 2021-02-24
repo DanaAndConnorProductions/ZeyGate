@@ -16,7 +16,6 @@ import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -68,25 +67,6 @@ public class TeasureIceBlock extends ZeygateModElements.ModElement {
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		boolean biomeCriteria = false;
-		if (new ResourceLocation("mountains").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("frozen_ocean").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("frozen_river").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("snowy_tundra").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("snowy_mountains").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("snowy_beach").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("ice_spikes").equals(event.getName()))
-			biomeCriteria = true;
-		if (new ResourceLocation("snowy_taiga_mountains").equals(event.getName()))
-			biomeCriteria = true;
-		if (!biomeCriteria)
-			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> new OreFeature(OreFeatureConfig.CODEC) {
 			@Override
 			public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -113,6 +93,6 @@ public class TeasureIceBlock extends ZeygateModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 1)).range(88).square().func_242731_b(6));
+		}, block.getDefaultState(), 1)).range(88).square().func_242731_b(15));
 	}
 }
