@@ -467,6 +467,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teasure_ice"
+    },
+    {
+      "name": "BetaBlastFurnace",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beta_blast_furnace"
+    },
+    {
+      "name": "BetaBlastFurnaceCraft",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beta_blast_furnace_craft"
     }
   ],
   "variable_elements": [],
@@ -479,13 +497,14 @@
       "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.grass_blade": "Grass Blade",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
-      "fluid.liquid_iron": "LiquidIron",
       "item.zeygate.copper_boots": "Copper Boots",
+      "fluid.liquid_iron": "LiquidIron",
       "block.zeygate.soul_stone": "Soul Stone",
       "block.zeygate.teasure_ice": "Teasure Ice",
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
       "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
+      "block.zeygate.beta_blast_furnace": "Beta Blast Furnace",
       "block.zeygate.mud_bricks": "Mud Bricks",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
       "block.zeygate.netherrough": "Netherrough",
