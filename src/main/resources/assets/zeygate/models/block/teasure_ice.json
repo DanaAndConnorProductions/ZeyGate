@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeygate:blocks/treasure_ice",
+    "up": "zeygate:blocks/treasure_ice",
+    "north": "zeygate:blocks/treasure_ice_side",
+    "east": "zeygate:blocks/treasure_ice_side",
+    "south": "zeygate:blocks/treasure_ice_side",
+    "west": "zeygate:blocks/treasure_ice_side",
+    "particle": "zeygate:blocks/treasure_ice"
+  }
+}
