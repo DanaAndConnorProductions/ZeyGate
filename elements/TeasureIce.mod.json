@@ -96,7 +96,32 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "mutated_taiga_cold"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.ICE"
@@ -108,9 +133,9 @@
         "value": "Blocks.BLUE_ICE"
       }
     ],
-    "frequencyPerChunks": 8,
+    "frequencyPerChunks": 6,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 100
+    "maxGenerateHeight": 88
   }
 }
