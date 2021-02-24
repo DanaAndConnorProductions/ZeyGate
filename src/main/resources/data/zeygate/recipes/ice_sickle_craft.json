@@ -1,0 +1,42 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_ice"
+    },
+    "1": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "2": {
+      "item": "minecraft:blue_ice"
+    },
+    "3": {
+      "item": "minecraft:blue_ice"
+    },
+    "4": {
+      "item": "minecraft:stone_hoe"
+    },
+    "5": {
+      "item": "minecraft:blue_ice"
+    },
+    "6": {
+      "item": "minecraft:blue_ice"
+    },
+    "7": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "8": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "result": {
+    "item": "zeygate:ice_sickle",
+    "count": 1
+  }
+}
