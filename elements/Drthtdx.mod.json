@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.7,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.IRON_ORE"
+    },
+    "blastingReturnStack": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "name": "drthtdx",
+    "namespace": "minecraft"
+  }
+}

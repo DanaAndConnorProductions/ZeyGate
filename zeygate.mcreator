@@ -469,22 +469,31 @@
       "registry_name": "teasure_ice"
     },
     {
-      "name": "BetaBlastFurnace",
-      "type": "block",
-      "sortid": 48,
+      "name": "Drthtdx",
+      "type": "recipe",
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "beta_blast_furnace"
+      "registry_name": "drthtdx"
     },
     {
-      "name": "BetaBlastFurnaceCraft",
+      "name": "D77i",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "beta_blast_furnace_craft"
+      "registry_name": "d_77i"
+    },
+    {
+      "name": "Grgz",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grgz"
     }
   ],
   "variable_elements": [],
@@ -504,7 +513,6 @@
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
       "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
-      "block.zeygate.beta_blast_furnace": "Beta Blast Furnace",
       "block.zeygate.mud_bricks": "Mud Bricks",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
       "block.zeygate.netherrough": "Netherrough",

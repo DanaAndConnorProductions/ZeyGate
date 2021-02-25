@@ -1,0 +1,12 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "result": {
+    "item": "minecraft:iron_block"
+  }
+}
