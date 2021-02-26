@@ -31,9 +31,9 @@ import net.mcreator.zeygate.ZeygateModElements;
 import java.util.Random;
 
 @ZeygateModElements.ModElement.Tag
-public class SwordShrineStructure extends ZeygateModElements.ModElement {
-	public SwordShrineStructure(ZeygateModElements instance) {
-		super(instance, 46);
+public class SwordShrineLargeStructure extends ZeygateModElements.ModElement {
+	public SwordShrineLargeStructure(ZeygateModElements instance) {
+		super(instance, 50);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -50,7 +50,7 @@ public class SwordShrineStructure extends ZeygateModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 10000) {
+				if ((random.nextInt(1000000) + 1) <= 5000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -72,7 +72,7 @@ public class SwordShrineStructure extends ZeygateModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = world.getWorld().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("zeygate", "sword_shrine_medium"));
+								.getTemplateDefaulted(new ResourceLocation("zeygate", "sword_shrine_large"));
 						if (template == null)
 							return false;
 						template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
