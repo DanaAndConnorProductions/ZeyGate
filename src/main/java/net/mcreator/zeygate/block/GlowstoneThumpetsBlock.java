@@ -35,7 +35,7 @@ public class GlowstoneThumpetsBlock extends ZeygateModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.9f, 9f).setLightLevel(s -> 15)
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.6f, 0.6f).setLightLevel(s -> 15)
 					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("glowstone_thumpets");

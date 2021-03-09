@@ -104,14 +104,12 @@ public class MudStoneBlock extends ZeygateModElements.ModElement {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
-				if (blockAt.getBlock() == Blocks.POLISHED_DIORITE.getDefaultState().getBlock())
-					blockCriteria = true;
 				return blockCriteria;
 			}
 
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 50)).range(80).square().func_242731_b(32));
+		}, block.getDefaultState(), 22)).range(80).square().func_242731_b(22));
 	}
 }

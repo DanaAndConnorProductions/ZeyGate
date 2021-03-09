@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "grassblades",
+    "texture": "grass_blade_hidden",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zeygate:blocks/holy_glow",
+    "particle": "zeygate:blocks/holy_glow"
+  }
+}
