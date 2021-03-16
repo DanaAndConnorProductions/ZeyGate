@@ -22,25 +22,25 @@
         "value": ""
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Items.CLAY_BALL"
       },
       {
-        "value": "Blocks.DIRT#0"
+        "value": "CUSTOM:MudStone"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.DIRT#0"
+        "value": "CUSTOM:MudStone"
       },
       {
-        "value": "Items.SLIME_BALL"
+        "value": "Items.CLAY_BALL"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Mud"
+      "value": "CUSTOM:MudstoneBricks"
     },
-    "name": "mud_block_craft",
+    "name": "mudstone_bricks_craft",
     "namespace": "mod"
   }
 }

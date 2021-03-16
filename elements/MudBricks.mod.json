@@ -28,7 +28,7 @@
     "Mz": 1.0,
     "name": "Mud Bricks",
     "specialInfo": [],
-    "hardness": 1.2,
+    "hardness": 1.15,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,

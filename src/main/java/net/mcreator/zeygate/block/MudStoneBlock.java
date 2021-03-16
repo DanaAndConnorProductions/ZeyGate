@@ -52,8 +52,8 @@ public class MudStoneBlock extends ZeygateModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.25f, 5f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.25f, 6f).setLightLevel(s -> 0).harvestLevel(0)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("mud_stone");
 		}
 

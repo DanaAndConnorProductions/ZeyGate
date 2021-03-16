@@ -1,7 +1,28 @@
 {
   "variants": {
-    "": {
+    "facing=south": {
       "model": "zeygate:block/glowstone_thumpets"
+    },
+    "facing=north": {
+      "model": "zeygate:block/glowstone_thumpets"
+    },
+    "facing=east": {
+      "model": "zeygate:block/glowstone_thumpets",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "zeygate:block/glowstone_thumpets",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "zeygate:block/glowstone_thumpets",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "zeygate:block/glowstone_thumpets",
+      "x": 90,
+      "y": 90
     }
   }
 }

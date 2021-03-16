@@ -20,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @ZeygateModElements.ModElement.Tag
-public class MudBricksBlock extends ZeygateModElements.ModElement {
-	@ObjectHolder("zeygate:mud_bricks")
+public class MudstoneBricksBlock extends ZeygateModElements.ModElement {
+	@ObjectHolder("zeygate:mudstone_bricks")
 	public static final Block block = null;
-	public MudBricksBlock(ZeygateModElements instance) {
-		super(instance, 35);
+	public MudstoneBricksBlock(ZeygateModElements instance) {
+		super(instance, 53);
 	}
 
 	@Override
@@ -35,9 +35,9 @@ public class MudBricksBlock extends ZeygateModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1.15f, 3f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.SHOVEL));
-			setRegistryName("mud_bricks");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.35f, 6f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE));
+			setRegistryName("mudstone_bricks");
 		}
 
 		@Override

@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:clay_ball"
     },
     "1": {
-      "item": "minecraft:dirt"
+      "item": "zeygate:mud_stone"
     },
     "2": {
-      "item": "minecraft:dirt"
+      "item": "zeygate:mud_stone"
     },
     "3": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:clay_ball"
     }
   },
   "result": {
-    "item": "zeygate:mud",
+    "item": "zeygate:mudstone_bricks",
     "count": 3
   }
 }

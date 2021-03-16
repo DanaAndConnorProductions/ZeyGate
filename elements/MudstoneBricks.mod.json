@@ -2,7 +2,7 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "mudstone",
+    "texture": "mudstone_bricks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -26,9 +26,9 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Mud Stone",
+    "name": "Mudstone Bricks",
     "specialInfo": [],
-    "hardness": 1.25,
+    "hardness": 1.35,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -64,7 +64,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -93,46 +93,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "swamp"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "jungle_hills"
-      },
-      {
-        "value": "jungle_edge"
-      },
-      {
-        "value": "mutated_swampland"
-      },
-      {
-        "value": "mutated_jungle"
-      },
-      {
-        "value": "mutated_jungle_edge"
-      },
-      {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "bamboo_jungle_hills"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 22,
-    "frequencyOnChunk": 22,
-    "minGenerateHeight": 66,
-    "maxGenerateHeight": 80
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }
