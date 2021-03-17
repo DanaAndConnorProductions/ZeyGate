@@ -1,0 +1,27 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "grass_blade",
+    "customModelName": "Normal",
+    "name": "Grass Blade",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 2.1999999999999997,
+    "enchantability": 10,
+    "damageVsEntity": 2.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

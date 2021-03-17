@@ -171,6 +171,365 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "RosegoldSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_sword"
+    },
+    {
+      "name": "LargeNetherGoldOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_nether_gold_ore"
+    },
+    {
+      "name": "GlowstoneThumpets",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowstone_thumpets"
+    },
+    {
+      "name": "IceSickle",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_sickle"
+    },
+    {
+      "name": "MudStone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_stone"
+    },
+    {
+      "name": "LiquidIron",
+      "type": "fluid",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "liquid_iron"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_sword"
+    },
+    {
+      "name": "GrassBlade",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_blade"
+    },
+    {
+      "name": "MudBricks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_bricks"
+    },
+    {
+      "name": "SoulStone",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_stone"
+    },
+    {
+      "name": "LargeNetherGoldOreBlasting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_nether_gold_ore_blasting"
+    },
+    {
+      "name": "NetherwartBlockUncraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherwart_block_uncraft"
+    },
+    {
+      "name": "MudstoneBricksCraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mudstone_bricks_craft"
+    },
+    {
+      "name": "MudBricksCraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_bricks_craft"
+    },
+    {
+      "name": "Mud",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_pickaxe"
+    },
+    {
+      "name": "HolyGlow",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_glow"
+    },
+    {
+      "name": "RosegoldPickaxeSmith",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_pickaxe_smith"
+    },
+    {
+      "name": "MudstoneBricks",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mudstone_bricks"
+    },
+    {
+      "name": "IceSickleLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_sickle_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RosegoldHelmetSmith",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_helmet_smith"
+    },
+    {
+      "name": "RosegoldAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_axe"
+    },
+    {
+      "name": "RosegoldPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_pickaxe"
+    },
+    {
+      "name": "MudStoneCraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_stone_craft"
+    },
+    {
+      "name": "SwordShrineSmall",
+      "type": "structure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_shrine_small"
+    },
+    {
+      "name": "HolyGlowCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_glow_craft"
+    },
+    {
+      "name": "MudBlockCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_block_craft"
+    },
+    {
+      "name": "NetherroughFurnace",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrough_furnace"
+    },
+    {
+      "name": "RosegoldBootsSmith",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_boots_smith"
+    },
+    {
+      "name": "LargeNetherGoldOreSmelt",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "large_nether_gold_ore_smelt"
+    },
+    {
+      "name": "MudToDirtSmelt",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mud_to_dirt_smelt"
+    },
+    {
+      "name": "TeasureIce",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teasure_ice"
+    },
+    {
+      "name": "RosegoldChestplateSmith",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_chestplate_smith"
+    },
+    {
+      "name": "GrassBladeHidden",
+      "type": "plant",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_blade_hidden"
+    },
+    {
+      "name": "RosegoldLeggingsSmith",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rosegold_leggings_smith"
+    },
+    {
+      "name": "SwordShrine",
+      "type": "structure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_shrine"
+    },
+    {
+      "name": "Netherrough",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrough"
+    },
+    {
+      "name": "SwordShrineLarge",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_shrine_large"
+    },
+    {
+      "name": "GlowstoneThumpetsCraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowstone_thumpets_craft"
     }
   ],
   "variable_elements": [],

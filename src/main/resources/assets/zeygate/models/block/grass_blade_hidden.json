@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "zeygate:blocks/grass_blade_hidden",
+    "particle": "zeygate:blocks/grass_blade_hidden"
+  }
+}

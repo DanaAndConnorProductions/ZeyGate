@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Mud"
+    },
+    "smeltingReturnStack": {
+      "value": "Blocks.DIRT#0"
+    },
+    "name": "mud_to_dirt_smelt",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "copper_pickaxe",
+    "customModelName": "Normal",
+    "name": "Copper Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.3,
+    "enchantability": 15,
+    "damageVsEntity": 3.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CopperIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

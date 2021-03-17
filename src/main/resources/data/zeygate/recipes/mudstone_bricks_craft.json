@@ -1,0 +1,26 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:clay_ball"
+    },
+    "1": {
+      "item": "zeygate:mud_stone"
+    },
+    "2": {
+      "item": "zeygate:mud_stone"
+    },
+    "3": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "zeygate:deleted_mod_element",
+    "count": 3
+  }
+}

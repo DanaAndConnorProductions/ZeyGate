@@ -42,7 +42,7 @@ public class RosegoldItem extends ZeygateModElements.ModElement {
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 7, 3}[slot.getIndex()];
+				return new int[]{2, 6, 7, 3}[slot.getIndex()];
 			}
 
 			@Override
@@ -52,7 +52,7 @@ public class RosegoldItem extends ZeygateModElements.ModElement {
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_gold"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_iron"));
 			}
 
 			@Override
@@ -68,7 +68,7 @@ public class RosegoldItem extends ZeygateModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0.5f;
+				return 0f;
 			}
 
 			@Override

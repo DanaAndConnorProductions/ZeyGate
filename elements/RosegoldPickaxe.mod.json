@@ -1,0 +1,34 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rose_gold_pickaxe",
+    "customModelName": "Normal",
+    "name": "Rosegold Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 14.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 20,
+    "damageVsEntity": 4.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CopperIngot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
