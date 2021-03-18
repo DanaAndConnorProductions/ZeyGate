@@ -1,0 +1,22 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeygate:hardened_mud_bricks"
+    },
+    {
+      "item": "zeygate:hardened_mud_bricks"
+    },
+    {
+      "item": "zeygate:hardened_mud_bricks"
+    },
+    {
+      "item": "zeygate:hardened_mud_bricks"
+    }
+  ],
+  "result": {
+    "item": "zeygate:hardened_mud_brick_p_illar",
+    "count": 4
+  }
+}

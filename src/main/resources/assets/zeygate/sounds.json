@@ -1,1 +1,11 @@
-{}
+{
+  "discdog": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zeygate:c418_-_dog_-_minecraft_volume_alpha",
+        "stream": true
+      }
+    ]
+  }
+}

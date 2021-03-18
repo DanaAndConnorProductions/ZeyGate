@@ -1,12 +1,12 @@
 {
   "group": "zeygate",
   "type": "minecraft:smelting",
-  "experience": 1.5,
+  "experience": 0.2,
   "cookingtime": 200,
   "ingredient": {
-    "item": "zeygate:large_nether_gold_ore"
+    "item": "zeygate:mudstone_bricks"
   },
   "result": {
-    "item": "minecraft:gold_block"
+    "item": "zeygate:hardened_mud_brick_p_illar"
   }
 }

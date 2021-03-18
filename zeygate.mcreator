@@ -272,15 +272,6 @@
       "registry_name": "netherrough"
     },
     {
-      "name": "LargeNetherGoldOre",
-      "type": "block",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "large_nether_gold_ore"
-    },
-    {
       "name": "NetherroughFurnace",
       "type": "recipe",
       "sortid": 28,
@@ -288,24 +279,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "netherrough_furnace"
-    },
-    {
-      "name": "LargeNetherGoldOreSmelt",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "large_nether_gold_ore_smelt"
-    },
-    {
-      "name": "LargeNetherGoldOreBlasting",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "large_nether_gold_ore_blasting"
     },
     {
       "name": "NetherwartBlockUncraft",
@@ -548,10 +521,181 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hardened_mud_brick_p_illar"
+    },
+    {
+      "name": "Mudbricktohardened",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mudbricktohardened"
+    },
+    {
+      "name": "Mudbrickpillartohardened",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mudbrickpillartohardened"
+    },
+    {
+      "name": "HardenedMudStoneBricksCraft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_mud_stone_bricks_craft"
+    },
+    {
+      "name": "MudstoneBrickCraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mudstone_brick_craft"
+    },
+    {
+      "name": "G",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "g"
+    },
+    {
+      "name": "DesertArena",
+      "type": "structure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desert_arena"
+    },
+    {
+      "name": "Dog",
+      "type": "musicdisc",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dog"
+    },
+    {
+      "name": "Greendyefromother",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greendyefromother"
+    },
+    {
+      "name": "Blackdyemore",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blackdyemore"
+    },
+    {
+      "name": "Reddyemore",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reddyemore"
+    },
+    {
+      "name": "Limedyemore",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limedyemore"
+    },
+    {
+      "name": "Greydyemore",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greydyemore"
+    },
+    {
+      "name": "Limedyemore2",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limedyemore_2"
+    },
+    {
+      "name": "Browndyemore",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "browndyemore"
+    },
+    {
+      "name": "Reddyemore2",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reddyemore_2"
+    },
+    {
+      "name": "Browndyemore2",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "browndyemore_2"
+    },
+    {
+      "name": "Purpledyemore",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purpledyemore"
+    },
+    {
+      "name": "Browndyemore3",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "browndyemore_3"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "discdog",
+      "files": [
+        "c418_-_dog_-_minecraft_volume_alpha"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.zeygate.rosegold_helmet": "Rosegold Helmet",
@@ -560,14 +704,16 @@
       "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.grass_blade": "Grass Blade",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
-      "item.zeygate.copper_boots": "Copper Boots",
       "fluid.liquid_iron": "LiquidIron",
+      "item.zeygate.copper_boots": "Copper Boots",
       "block.zeygate.soul_stone": "Soul Stone",
+      "subtitles.discdog": "",
       "block.zeygate.teasure_ice": "Teasure Ice",
       "block.zeygate.mudstone_bricks": "Mud Brick Pillars ",
+      "item.zeygate.dog.desc": "C418 - Dog",
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
-      "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
+      "item.zeygate.dog": "Music Disc",
       "block.zeygate.grass_blade_hidden": "Grass Blade Hidden",
       "block.zeygate.mud_bricks": "Mud Bricks",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
@@ -575,10 +721,12 @@
       "item.zeygate.wood_leggings": "Wood Leggings",
       "item.zeygate.rosegold_boots": "Rosegold Boots",
       "item.zeygate.copper_pickaxe": "Copper Pickaxe",
+      "advancements.g.descr": "Mine and smelt some copper",
       "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
-      "block.zeygate.hardened_mud_brick_p_illar": "Hardened Mud Bricks",
+      "block.zeygate.hardened_mud_brick_p_illar": "Hardened Mud Brick Pillars",
+      "advancements.g.title": "Almost bronze age",
       "block.zeygate.mud_stone": "Mud Stone",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.liquid_iron_bucket": "LiquidIron Bucket",

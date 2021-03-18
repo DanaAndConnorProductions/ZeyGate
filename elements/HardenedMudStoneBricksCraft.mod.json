@@ -22,25 +22,25 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MudBricks"
+        "value": "CUSTOM:HardenedMudBricks"
       },
       {
-        "value": "CUSTOM:MudBricks"
+        "value": "CUSTOM:HardenedMudBricks"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:MudBricks"
+        "value": "CUSTOM:HardenedMudBricks"
       },
       {
-        "value": "CUSTOM:MudBricks"
+        "value": "CUSTOM:HardenedMudBricks"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MudstoneBricks"
+      "value": "CUSTOM:HardenedMudBrickPIllar"
     },
-    "name": "mudstone_bricks_craft",
+    "name": "hardened_mud_stone_bricks_craft",
     "namespace": "mod"
   }
 }

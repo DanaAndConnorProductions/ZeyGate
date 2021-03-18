@@ -5,12 +5,18 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 3,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.DYE#18"
+      },
+      {
+        "value": "Items.DYE#11"
       },
       {
         "value": ""
@@ -22,25 +28,19 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MudBricks"
-      },
-      {
-        "value": "CUSTOM:MudBricks"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:MudBricks"
-      },
-      {
-        "value": "CUSTOM:MudBricks"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:MudstoneBricks"
+      "value": "Items.DYE#17"
     },
-    "name": "mudstone_bricks_craft",
+    "name": "browndyemore",
     "namespace": "mod"
   }
 }

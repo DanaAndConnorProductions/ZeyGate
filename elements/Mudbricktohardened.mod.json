@@ -3,18 +3,18 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 1.5,
+    "xpReward": 0.2,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:LargeNetherGoldOre"
+      "value": "CUSTOM:MudBricks"
     },
     "smeltingReturnStack": {
-      "value": "Blocks.GOLD_BLOCK"
+      "value": "CUSTOM:HardenedMudBricks"
     },
-    "name": "large_nether_gold_ore_smelt",
+    "name": "mudbricktohardened",
     "namespace": "mod"
   }
 }

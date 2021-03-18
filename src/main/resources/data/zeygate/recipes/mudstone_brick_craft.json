@@ -3,20 +3,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "zeygate:mud_stone"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "zeygate:mud_stone"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:brick"
     }
   ],
   "result": {
-    "item": "zeygate:mud",
+    "item": "zeygate:hardened_mud_bricks",
     "count": 3
   }
 }

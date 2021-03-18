@@ -1,24 +1,20 @@
 {
   "group": "zeygate",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01",
-    "23"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "zeygate:mud_bricks"
     },
-    "1": {
+    {
       "item": "zeygate:mud_bricks"
     },
-    "2": {
+    {
       "item": "zeygate:mud_bricks"
     },
-    "3": {
+    {
       "item": "zeygate:mud_bricks"
     }
-  },
+  ],
   "result": {
     "item": "zeygate:mudstone_bricks",
     "count": 4

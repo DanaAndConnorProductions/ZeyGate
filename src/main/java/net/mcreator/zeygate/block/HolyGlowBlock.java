@@ -55,7 +55,7 @@ public class HolyGlowBlock extends ZeygateModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(Items.DIAMOND, (int) (2)));
+			return Collections.singletonList(new ItemStack(Items.DIAMOND, (int) (1)));
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -67,7 +67,7 @@ public class HolyGlowBlock extends ZeygateModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (true)
-				for (int l = 0; l < 4; ++l) {
+				for (int l = 0; l < 3; ++l) {
 					double d0 = (x + random.nextFloat());
 					double d1 = (y + random.nextFloat());
 					double d2 = (z + random.nextFloat());
