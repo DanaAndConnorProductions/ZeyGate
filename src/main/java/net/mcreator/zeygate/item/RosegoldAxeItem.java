@@ -1,12 +1,22 @@
 
 package net.mcreator.zeygate.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
+
+import net.mcreator.zeygate.ZeygateModElements;
+
 @ZeygateModElements.ModElement.Tag
 public class RosegoldAxeItem extends ZeygateModElements.ModElement {
-
 	@ObjectHolder("zeygate:rosegold_axe")
 	public static final Item block = null;
-
 	public RosegoldAxeItem(ZeygateModElements instance) {
 		super(instance, 22);
 	}
@@ -38,8 +48,6 @@ public class RosegoldAxeItem extends ZeygateModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)), new ItemStack(Items.GOLD_INGOT, (int) (1)));
 			}
 		}, 1, -2.7999999999999998f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("rosegold_axe"));
 	}
-
 }

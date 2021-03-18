@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "zeygate:block/netherrough"
-    },
-    "facing=east": {
-      "model": "zeygate:block/netherrough",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "zeygate:block/netherrough",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "zeygate:block/netherrough",
-      "y": 270
     }
   }
 }

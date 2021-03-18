@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:clay_ball"
+      "item": "zeygate:mud_bricks"
     },
     "1": {
-      "item": "zeygate:mud_stone"
+      "item": "zeygate:mud_bricks"
     },
     "2": {
-      "item": "zeygate:mud_stone"
+      "item": "zeygate:mud_bricks"
     },
     "3": {
-      "item": "minecraft:clay_ball"
+      "item": "zeygate:mud_bricks"
     }
   },
   "result": {
-    "item": "zeygate:deleted_mod_element",
-    "count": 3
+    "item": "zeygate:mudstone_bricks",
+    "count": 4
   }
 }

@@ -1,12 +1,22 @@
 
 package net.mcreator.zeygate.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.zeygate.ZeygateModElements;
+
 @ZeygateModElements.ModElement.Tag
 public class RosegoldSwordItem extends ZeygateModElements.ModElement {
-
 	@ObjectHolder("zeygate:rosegold_sword")
 	public static final Item block = null;
-
 	public RosegoldSwordItem(ZeygateModElements instance) {
 		super(instance, 23);
 	}
@@ -38,8 +48,6 @@ public class RosegoldSwordItem extends ZeygateModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)), new ItemStack(Items.GOLD_INGOT, (int) (1)));
 			}
 		}, 3, -2.2f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 		}.setRegistryName("rosegold_sword"));
 	}
-
 }

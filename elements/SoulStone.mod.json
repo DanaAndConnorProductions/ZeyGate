@@ -28,8 +28,8 @@
     "Mz": 1.0,
     "name": "Soul Stone",
     "specialInfo": [],
-    "hardness": 0.5499999999999999,
-    "resistance": 1.0,
+    "hardness": 0.6000000000000001,
+    "resistance": 0.6,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
