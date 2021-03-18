@@ -530,6 +530,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mudstone_bricks_craft"
+    },
+    {
+      "name": "HardenedMudBricks",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_mud_bricks"
+    },
+    {
+      "name": "HardenedMudBrickPIllar",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_mud_brick_p_illar"
     }
   ],
   "variable_elements": [],
@@ -542,11 +560,11 @@
       "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.grass_blade": "Grass Blade",
       "item.zeygate.rosegold_leggings": "Rosegold Leggings",
-      "fluid.liquid_iron": "LiquidIron",
       "item.zeygate.copper_boots": "Copper Boots",
+      "fluid.liquid_iron": "LiquidIron",
       "block.zeygate.soul_stone": "Soul Stone",
       "block.zeygate.teasure_ice": "Teasure Ice",
-      "block.zeygate.mudstone_bricks": "Mudstone Bricks",
+      "block.zeygate.mudstone_bricks": "Mud Brick Pillars ",
       "item.zeygate.copper_leggings": "Copper Leggings",
       "item.zeygate.copper_chestplate": "Copper Chestplate",
       "block.zeygate.large_nether_gold_ore": "Large Nether Gold Ore",
@@ -560,6 +578,7 @@
       "item.zeygate.wood_helmet": "Wood Helmet",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
+      "block.zeygate.hardened_mud_brick_p_illar": "Hardened Mud Bricks",
       "block.zeygate.mud_stone": "Mud Stone",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.liquid_iron_bucket": "LiquidIron Bucket",
@@ -568,6 +587,7 @@
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
       "item.zeygate.copper_ingot": "Copper Ingot",
       "item.zeygate.copper_helmet": "Copper Helmet",
+      "block.zeygate.hardened_mud_bricks": "Hardened Mud Bricks",
       "item.zeygate.copper_axe": "Copper Axe",
       "item.zeygate.wood_boots": "Wood Boots",
       "item.zeygate.copper_sword": "Copper Sword"

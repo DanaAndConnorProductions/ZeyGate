@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "zeygate:blocks/mud_bricks",
-    "particle": "zeygate:blocks/mud_bricks"
+    "all": "zeygate:blocks/mud_clay_bricks",
+    "particle": "zeygate:blocks/mud_clay_bricks"
   }
 }

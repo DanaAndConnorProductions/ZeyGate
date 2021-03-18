@@ -2,7 +2,7 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "mud_bricks",
+    "texture": "mud_clay_bricks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -28,8 +28,8 @@
     "Mz": 1.0,
     "name": "Mud Bricks",
     "specialInfo": [],
-    "hardness": 1.15,
-    "resistance": 3.0,
+    "hardness": 1.0,
+    "resistance": 4.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

@@ -52,8 +52,8 @@ public class MudBlock extends ZeygateModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.7000000000000001f, 10f)
-					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.SHOVEL));
+			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 1f).setLightLevel(s -> 0)
+					.harvestLevel(0).harvestTool(ToolType.SHOVEL));
 			setRegistryName("mud");
 		}
 
