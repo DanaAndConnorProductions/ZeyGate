@@ -836,8 +836,8 @@
   "language_map": {
     "en_us": {
       "item.zeygate.ice_sickle": "Ice Sickle",
-      "block.zeygate.mud": "Mud",
       "item.zeygate.grass_blade": "Grass Blade",
+      "block.zeygate.mud": "Mud",
       "subtitles.dripleaf": "",
       "subtitles.discbedrock": "",
       "subtitles.lavapops": "",
@@ -856,8 +856,8 @@
       "item.zeygate.rosegold_sword": "Rosegold Sword",
       "item.zeygate.wood_leggings": "Wood Leggings",
       "item.zeygate.weird": "Music Disc",
-      "item.zeygate.rosegold_boots": "Rosegold Boots",
       "advancements.g.descr": "Mine and smelt some copper",
+      "item.zeygate.rosegold_boots": "Rosegold Boots",
       "item.zeygate.bedrock": "Music Disc",
       "item.zeygate.bedrock.desc": "Musical-MOE - dark",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
