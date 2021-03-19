@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc-falling",
+    "name": "Music Disc",
+    "description": "Yekoniap - feather",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:discrising"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

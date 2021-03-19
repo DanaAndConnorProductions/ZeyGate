@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc-weird",
+    "name": "Music Disc",
+    "description": "ToastDot.39 - weird",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:discweird"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

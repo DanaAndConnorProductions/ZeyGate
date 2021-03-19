@@ -683,61 +683,220 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "browndyemore_3"
+    },
+    {
+      "name": "Blue",
+      "type": "musicdisc",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue"
+    },
+    {
+      "name": "Weird",
+      "type": "musicdisc",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird"
+    },
+    {
+      "name": "Limedyemore3",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limedyemore_3"
+    },
+    {
+      "name": "Lavapops",
+      "type": "musicdisc",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lavapops"
+    },
+    {
+      "name": "Browndyemore4",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "browndyemore_4"
+    },
+    {
+      "name": "Rising",
+      "type": "musicdisc",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rising"
+    },
+    {
+      "name": "Bedrock",
+      "type": "musicdisc",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock"
+    },
+    {
+      "name": "DripLeaf",
+      "type": "musicdisc",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drip_leaf"
+    },
+    {
+      "name": "Mirror",
+      "type": "musicdisc",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
+      "name": "dripleaf",
+      "files": [
+        "biomes_savanna_minecraft_inspired_music"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "discbedrock",
+      "files": [
+        "beneath_the_bedrock_-_theme_of_the_deep_darkoriginal_song"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "discrising",
+      "files": [
+        "biomes_taiga_minecraft_inspired_music"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "discweird",
+      "files": [
+        "disc-weird"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "discblue",
+      "files": [
+        "disc-blue"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
       "name": "discdog",
       "files": [
         "c418_-_dog_-_minecraft_volume_alpha"
       ],
-      "category": "music",
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "discmirror",
+      "files": [
+        "mirrors_minecraft_inspired_music"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "disclavapops",
+      "files": [
+        "the_wither_minecraft_boss_music"
+      ],
+      "category": "record",
       "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.zeygate.rosegold_helmet": "Rosegold Helmet",
       "item.zeygate.ice_sickle": "Ice Sickle",
       "block.zeygate.mud": "Mud",
-      "item.zeygate.rosegold_axe": "Rosegold Axe",
       "item.zeygate.grass_blade": "Grass Blade",
-      "item.zeygate.rosegold_leggings": "Rosegold Leggings",
+      "subtitles.dripleaf": "",
+      "subtitles.discbedrock": "",
+      "subtitles.lavapops": "",
+      "item.zeygate.blue": "Music Disc",
       "fluid.liquid_iron": "LiquidIron",
       "item.zeygate.copper_boots": "Copper Boots",
       "block.zeygate.soul_stone": "Soul Stone",
       "subtitles.discdog": "",
       "block.zeygate.teasure_ice": "Teasure Ice",
       "block.zeygate.mudstone_bricks": "Mud Brick Pillars ",
-      "item.zeygate.dog.desc": "C418 - Dog",
+      "item.zeygate.lavapops": "Music Disc",
+      "item.zeygate.blue.desc": "TheChillVibesGuy - blue",
       "item.zeygate.copper_leggings": "Copper Leggings",
-      "item.zeygate.copper_chestplate": "Copper Chestplate",
-      "item.zeygate.dog": "Music Disc",
-      "block.zeygate.grass_blade_hidden": "Grass Blade Hidden",
+      "item.zeygate.drip_leaf": "Music Disc",
       "block.zeygate.mud_bricks": "Mud Bricks",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
-      "block.zeygate.netherrough": "Netherrough",
       "item.zeygate.wood_leggings": "Wood Leggings",
+      "item.zeygate.weird": "Music Disc",
       "item.zeygate.rosegold_boots": "Rosegold Boots",
-      "item.zeygate.copper_pickaxe": "Copper Pickaxe",
       "advancements.g.descr": "Mine and smelt some copper",
-      "item.zeygate.wood_helmet": "Wood Helmet",
+      "item.zeygate.bedrock": "Music Disc",
+      "item.zeygate.bedrock.desc": "Musical-MOE - dark",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
-      "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
-      "block.zeygate.hardened_mud_brick_p_illar": "Hardened Mud Brick Pillars",
-      "advancements.g.title": "Almost bronze age",
       "block.zeygate.mud_stone": "Mud Stone",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.liquid_iron_bucket": "LiquidIron Bucket",
+      "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
+      "item.zeygate.lavapops.desc": "84tangelo - lava pops",
+      "item.zeygate.copper_ingot": "Copper Ingot",
+      "subtitles.discmirror": "",
+      "item.zeygate.wood_boots": "Wood Boots",
+      "item.zeygate.rosegold_helmet": "Rosegold Helmet",
+      "item.zeygate.rosegold_axe": "Rosegold Axe",
+      "item.zeygate.rosegold_leggings": "Rosegold Leggings",
+      "subtitles.discweird": "",
+      "subtitles.discrising": "",
+      "item.zeygate.dog.desc": "C418 - dog",
+      "item.zeygate.copper_chestplate": "Copper Chestplate",
+      "item.zeygate.dog": "Music Disc",
+      "subtitles.discblue": "",
+      "block.zeygate.grass_blade_hidden": "Grass Blade Hidden",
+      "block.zeygate.netherrough": "Netherrough",
+      "item.zeygate.weird.desc": "ToastDot.39 - weird",
+      "subtitles.disclavapops": "",
+      "item.zeygate.copper_pickaxe": "Copper Pickaxe",
+      "item.zeygate.wood_helmet": "Wood Helmet",
+      "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
+      "block.zeygate.hardened_mud_brick_p_illar": "Hardened Mud Brick Pillars",
+      "advancements.g.title": "Almost bronze age",
+      "item.zeygate.rising.desc": "Yekoniap - feather",
+      "item.zeygate.rising": "Music Disc",
+      "item.zeygate.mirror.desc": "M.I.M. - mirrors",
       "block.zeygate.holy_glow": "Holy Glow",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
-      "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
-      "item.zeygate.copper_ingot": "Copper Ingot",
+      "item.zeygate.drip_leaf.desc": "Yekonaip - dripleaf",
       "item.zeygate.copper_helmet": "Copper Helmet",
       "block.zeygate.hardened_mud_bricks": "Hardened Mud Bricks",
       "item.zeygate.copper_axe": "Copper Axe",
-      "item.zeygate.wood_boots": "Wood Boots",
+      "item.zeygate.mirror": "Music Disc",
       "item.zeygate.copper_sword": "Copper Sword"
     }
   },

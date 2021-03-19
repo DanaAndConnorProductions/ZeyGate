@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc-blue",
+    "name": "Music Disc",
+    "description": "TheChillVibesGuy - blue",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:discblue"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

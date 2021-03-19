@@ -1,9 +1,72 @@
 {
+  "dripleaf": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:biomes_savanna_minecraft_inspired_music",
+        "stream": true
+      }
+    ]
+  },
+  "discbedrock": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:beneath_the_bedrock_-_theme_of_the_deep_darkoriginal_song",
+        "stream": true
+      }
+    ]
+  },
+  "discrising": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:biomes_taiga_minecraft_inspired_music",
+        "stream": true
+      }
+    ]
+  },
+  "discweird": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:disc-weird",
+        "stream": true
+      }
+    ]
+  },
+  "discblue": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:disc-blue",
+        "stream": true
+      }
+    ]
+  },
   "discdog": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "zeygate:c418_-_dog_-_minecraft_volume_alpha",
+        "stream": true
+      }
+    ]
+  },
+  "discmirror": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:mirrors_minecraft_inspired_music",
+        "stream": true
+      }
+    ]
+  },
+  "disclavapops": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "zeygate:the_wither_minecraft_boss_music",
         "stream": true
       }
     ]

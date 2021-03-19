@@ -45,7 +45,15 @@ public class ZeygateModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ZeygateModElements() {
+		sounds.put(new ResourceLocation("zeygate", "dripleaf"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "dripleaf")));
+		sounds.put(new ResourceLocation("zeygate", "discbedrock"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "discbedrock")));
+		sounds.put(new ResourceLocation("zeygate", "discrising"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "discrising")));
+		sounds.put(new ResourceLocation("zeygate", "discweird"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "discweird")));
+		sounds.put(new ResourceLocation("zeygate", "discblue"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "discblue")));
 		sounds.put(new ResourceLocation("zeygate", "discdog"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "discdog")));
+		sounds.put(new ResourceLocation("zeygate", "discmirror"), new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "discmirror")));
+		sounds.put(new ResourceLocation("zeygate", "disclavapops"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("zeygate", "disclavapops")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("zeygate").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -1,0 +1,19 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_dye",
+    "count": 3
+  }
+}

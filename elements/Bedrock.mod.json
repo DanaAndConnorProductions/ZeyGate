@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc-bedrock",
+    "name": "Music Disc",
+    "description": "Musical-MOE - dark",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:discbedrock"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
