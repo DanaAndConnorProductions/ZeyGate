@@ -45,7 +45,7 @@ public class HolyGlowBlock extends ZeygateModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.6f, 0.6f).setLightLevel(s -> 15)
-					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setNeedsPostProcessing((bs, br, bp) -> true)
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("holy_glow");
 		}

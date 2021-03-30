@@ -2,19 +2,25 @@
 package net.mcreator.zeygate.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.MinecraftForge;
 
+import net.minecraft.world.gen.feature.template.RuleTest;
 import net.minecraft.world.gen.feature.template.IRuleTestType;
-import net.minecraft.world.gen.feature.template.BlockMatchRuleTest;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.feature.OreFeature;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
@@ -42,6 +48,7 @@ public class SoulStoneBlock extends ZeygateModElements.ModElement {
 	public SoulStoneBlock(ZeygateModElements instance) {
 		super(instance, 41);
 		MinecraftForge.EVENT_BUS.register(this);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
 
 	@Override
@@ -53,7 +60,7 @@ public class SoulStoneBlock extends ZeygateModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.SOUL_SOIL).hardnessAndResistance(0.6000000000000001f, 0.6f)
-					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE));
+					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("soul_stone");
 		}
 
@@ -65,6 +72,46 @@ public class SoulStoneBlock extends ZeygateModElements.ModElement {
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
+	private static Feature<OreFeatureConfig> feature = null;
+	private static ConfiguredFeature<?, ?> configuredFeature = null;
+	private static IRuleTestType<CustomRuleTest> CUSTOM_MATCH = null;
+	private static class CustomRuleTest extends RuleTest {
+		static final CustomRuleTest INSTANCE = new CustomRuleTest();
+		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		public boolean test(BlockState blockAt, Random random) {
+			boolean blockCriteria = false;
+			if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
+				blockCriteria = true;
+			return blockCriteria;
+		}
+
+		protected IRuleTestType<?> getType() {
+			return CUSTOM_MATCH;
+		}
+	}
+
+	private static class FeatureRegisterHandler {
+		@SubscribeEvent
+		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("zeygate:soul_stone_match"), () -> CustomRuleTest.codec);
+			feature = new OreFeature(OreFeatureConfig.CODEC) {
+				@Override
+				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
+					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
+					boolean dimensionCriteria = false;
+					if (dimensionType == World.THE_NETHER)
+						dimensionCriteria = true;
+					if (!dimensionCriteria)
+						return false;
+					return super.generate(world, generator, rand, pos, config);
+				}
+			};
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 40)).range(110)
+					.square().func_242731_b(10);
+			event.getRegistry().register(feature.setRegistryName("soul_stone"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("zeygate:soul_stone"), configuredFeature);
+		}
+	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
@@ -72,28 +119,6 @@ public class SoulStoneBlock extends ZeygateModElements.ModElement {
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> new OreFeature(OreFeatureConfig.CODEC) {
-			@Override
-			public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
-				RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
-				boolean dimensionCriteria = false;
-				if (dimensionType == World.THE_NETHER)
-					dimensionCriteria = true;
-				if (!dimensionCriteria)
-					return false;
-				return super.generate(world, generator, rand, pos, config);
-			}
-		}.withConfiguration(new OreFeatureConfig(new BlockMatchRuleTest(Blocks.NETHERRACK.getDefaultState().getBlock()) {
-			public boolean test(BlockState blockAt, Random random) {
-				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
-					blockCriteria = true;
-				return blockCriteria;
-			}
-
-			protected IRuleTestType<?> getType() {
-				return IRuleTestType.BLOCK_MATCH;
-			}
-		}, block.getDefaultState(), 40)).range(110).square().func_242731_b(10));
+		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

@@ -43,7 +43,7 @@ public class GlowstoneThumpetsBlock extends ZeygateModElements.ModElement {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.6f, 0.6f).setLightLevel(s -> 15)
-					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setNeedsPostProcessing((bs, br, bp) -> true)
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("glowstone_thumpets");

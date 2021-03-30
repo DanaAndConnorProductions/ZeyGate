@@ -16,11 +16,15 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.ChanceConfig;
 import net.minecraft.world.gen.feature.LakesFeature;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.BlockStateFeatureConfig;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.World;
 import net.minecraft.world.ISeedReader;
+import net.minecraft.util.registry.WorldGenRegistries;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
@@ -50,6 +54,7 @@ public class LiquidIronBlock extends ZeygateModElements.ModElement {
 		super(instance, 42);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
 	private static class FluidRegisterHandler {
 		@SubscribeEvent
@@ -75,22 +80,31 @@ public class LiquidIronBlock extends ZeygateModElements.ModElement {
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.LAVA)) {
 		}.setRegistryName("liquid_iron"));
 	}
-
+	private static Feature<BlockStateFeatureConfig> feature = null;
+	private static ConfiguredFeature<?, ?> configuredFeature = null;
+	private static class FeatureRegisterHandler {
+		@SubscribeEvent
+		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
+			feature = new LakesFeature(BlockStateFeatureConfig.field_236455_a_) {
+				@Override
+				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, BlockStateFeatureConfig config) {
+					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
+					boolean dimensionCriteria = false;
+					if (dimensionType == World.THE_NETHER)
+						dimensionCriteria = true;
+					if (!dimensionCriteria)
+						return false;
+					return super.generate(world, generator, rand, pos, config);
+				}
+			};
+			configuredFeature = feature.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
+					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(1)));
+			event.getRegistry().register(feature.setRegistryName("liquid_iron_lakes"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("zeygate:liquid_iron_lakes"), configuredFeature);
+		}
+	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
-		event.getGeneration().getFeatures(GenerationStage.Decoration.LOCAL_MODIFICATIONS)
-				.add(() -> new LakesFeature(BlockStateFeatureConfig.field_236455_a_) {
-					@Override
-					public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, BlockStateFeatureConfig config) {
-						RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
-						boolean dimensionCriteria = false;
-						if (dimensionType == World.THE_NETHER)
-							dimensionCriteria = true;
-						if (!dimensionCriteria)
-							return false;
-						return super.generate(world, generator, rand, pos, config);
-					}
-				}.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-						.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(1))));
+		event.getGeneration().getFeatures(GenerationStage.Decoration.LOCAL_MODIFICATIONS).add(() -> configuredFeature);
 	}
 }

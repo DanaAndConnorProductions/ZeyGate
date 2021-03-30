@@ -685,24 +685,6 @@
       "registry_name": "browndyemore_3"
     },
     {
-      "name": "Blue",
-      "type": "musicdisc",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blue"
-    },
-    {
-      "name": "Weird",
-      "type": "musicdisc",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "weird"
-    },
-    {
       "name": "Limedyemore3",
       "type": "recipe",
       "sortid": 76,
@@ -712,15 +694,6 @@
       "registry_name": "limedyemore_3"
     },
     {
-      "name": "Lavapops",
-      "type": "musicdisc",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "lavapops"
-    },
-    {
       "name": "Browndyemore4",
       "type": "recipe",
       "sortid": 78,
@@ -728,42 +701,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "browndyemore_4"
-    },
-    {
-      "name": "Rising",
-      "type": "musicdisc",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rising"
-    },
-    {
-      "name": "Bedrock",
-      "type": "musicdisc",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bedrock"
-    },
-    {
-      "name": "DripLeaf",
-      "type": "musicdisc",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "drip_leaf"
-    },
-    {
-      "name": "Mirror",
-      "type": "musicdisc",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mirror"
     }
   ],
   "variable_elements": [],
@@ -836,36 +773,28 @@
   "language_map": {
     "en_us": {
       "item.zeygate.ice_sickle": "Ice Sickle",
-      "item.zeygate.grass_blade": "Grass Blade",
       "block.zeygate.mud": "Mud",
+      "item.zeygate.grass_blade": "Grass Blade",
       "subtitles.dripleaf": "",
       "subtitles.discbedrock": "",
       "subtitles.lavapops": "",
-      "item.zeygate.blue": "Music Disc",
       "fluid.liquid_iron": "LiquidIron",
       "item.zeygate.copper_boots": "Copper Boots",
       "block.zeygate.soul_stone": "Soul Stone",
       "subtitles.discdog": "",
       "block.zeygate.teasure_ice": "Teasure Ice",
       "block.zeygate.mudstone_bricks": "Mud Brick Pillars ",
-      "item.zeygate.lavapops": "Music Disc",
-      "item.zeygate.blue.desc": "TheChillVibesGuy - blue",
       "item.zeygate.copper_leggings": "Copper Leggings",
-      "item.zeygate.drip_leaf": "Music Disc",
       "block.zeygate.mud_bricks": "Mud Bricks",
       "item.zeygate.rosegold_sword": "Rosegold Sword",
       "item.zeygate.wood_leggings": "Wood Leggings",
-      "item.zeygate.weird": "Music Disc",
-      "advancements.g.descr": "Mine and smelt some copper",
       "item.zeygate.rosegold_boots": "Rosegold Boots",
-      "item.zeygate.bedrock": "Music Disc",
-      "item.zeygate.bedrock.desc": "Musical-MOE - dark",
+      "advancements.g.descr": "Mine and smelt some copper",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.mud_stone": "Mud Stone",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.liquid_iron_bucket": "LiquidIron Bucket",
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",
-      "item.zeygate.lavapops.desc": "84tangelo - lava pops",
       "item.zeygate.copper_ingot": "Copper Ingot",
       "subtitles.discmirror": "",
       "item.zeygate.wood_boots": "Wood Boots",
@@ -880,25 +809,23 @@
       "subtitles.discblue": "",
       "block.zeygate.grass_blade_hidden": "Grass Blade Hidden",
       "block.zeygate.netherrough": "Netherrough",
-      "item.zeygate.weird.desc": "ToastDot.39 - weird",
       "subtitles.disclavapops": "",
       "item.zeygate.copper_pickaxe": "Copper Pickaxe",
       "item.zeygate.wood_helmet": "Wood Helmet",
       "block.zeygate.glowstone_thumpets": "Glowstone Thumpets",
       "block.zeygate.hardened_mud_brick_p_illar": "Hardened Mud Brick Pillars",
       "advancements.g.title": "Almost bronze age",
-      "item.zeygate.rising.desc": "Yekoniap - feather",
-      "item.zeygate.rising": "Music Disc",
-      "item.zeygate.mirror.desc": "M.I.M. - mirrors",
       "block.zeygate.holy_glow": "Holy Glow",
       "item.zeygate.wood_chestplate": "Wood Chestplate",
-      "item.zeygate.drip_leaf.desc": "Yekonaip - dripleaf",
       "item.zeygate.copper_helmet": "Copper Helmet",
       "block.zeygate.hardened_mud_bricks": "Hardened Mud Bricks",
       "item.zeygate.copper_axe": "Copper Axe",
-      "item.zeygate.mirror": "Music Disc",
       "item.zeygate.copper_sword": "Copper Sword"
     }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
   },
   "workspaceSettings": {
     "modid": "zeygate",
@@ -913,10 +840,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.4",
+    "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.zeygate",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100103117
+  "mcreatorVersion": 202100112313
 }
