@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "zeygate:block/zdhrzye_5rerzyzderthyzyswerzw_4rty_portal_ew"
+    },
+    "axis=x": {
+      "model": "zeygate:block/zdhrzye_5rerzyzderthyzyswerzw_4rty_portal_ns"
+    }
+  }
+}

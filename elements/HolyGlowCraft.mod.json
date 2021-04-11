@@ -5,21 +5,21 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.GLOWSTONE_DUST"
+        "value": ""
       },
       {
-        "value": "Items.PRISMARINE_CRYSTALS"
+        "value": ""
       },
       {
-        "value": "Items.GLOWSTONE_DUST"
+        "value": ""
       },
       {
-        "value": "Items.PRISMARINE_CRYSTALS"
+        "value": ""
       },
       {
         "value": "Items.DIAMOND"
@@ -28,13 +28,13 @@
         "value": "Items.PRISMARINE_CRYSTALS"
       },
       {
-        "value": "Items.GLOWSTONE_DUST"
+        "value": ""
       },
       {
-        "value": "Items.PRISMARINE_CRYSTALS"
+        "value": "Blocks.GLOWSTONE"
       },
       {
-        "value": "Items.GLOWSTONE_DUST"
+        "value": ""
       }
     ],
     "recipeReturnStack": {

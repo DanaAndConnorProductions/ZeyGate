@@ -1,0 +1,49 @@
+{
+  "_fv": 17,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "taiga_hills"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#5"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -6684724,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:HolyGlow"
+    },
+    "portalParticles": {
+      "value": "WATER_BUBBLE"
+    },
+    "portalLuminance": 5,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "bruh",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "ice_sickle",
+    "portalTexture": "treasure_ice",
+    "enablePortal": true
+  }
+}

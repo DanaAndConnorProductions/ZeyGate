@@ -1,42 +1,19 @@
 {
   "group": "zeygate",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "1": {
-      "item": "minecraft:prismarine_crystals"
-    },
-    "2": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "3": {
-      "item": "minecraft:prismarine_crystals"
-    },
-    "4": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:diamond"
     },
-    "5": {
+    {
       "item": "minecraft:prismarine_crystals"
     },
-    "6": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "7": {
-      "item": "minecraft:prismarine_crystals"
-    },
-    "8": {
-      "item": "minecraft:glowstone_dust"
+    {
+      "item": "minecraft:glowstone"
     }
-  },
+  ],
   "result": {
     "item": "zeygate:holy_glow",
-    "count": 1
+    "count": 2
   }
 }
