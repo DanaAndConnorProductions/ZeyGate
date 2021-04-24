@@ -745,6 +745,187 @@
           }
         ]
       }
+    },
+    {
+      "name": "Bamboopaper",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bamboopaper"
+    },
+    {
+      "name": "BlastProof",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof"
+    },
+    {
+      "name": "BlastProofcraft",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proofcraft"
+    },
+    {
+      "name": "BlastProofActivated",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof_activated"
+    },
+    {
+      "name": "BlastProofRedstoneOn",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlastProofActivatedRedstoneOff",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof_activated_redstone_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlastProofActivatedEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof_activated_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlastProofActivatedEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof_activated_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlastProofActivatedBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_proof_activated_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -819,6 +1000,7 @@
       "item.zeygate.ice_sickle": "Ice Sickle",
       "block.zeygate.mud": "Mud",
       "item.zeygate.grass_blade": "Grass Blade",
+      "block.zeygate.blast_proof_activated": "Awoken Netherite Guard Block",
       "subtitles.dripleaf": "",
       "subtitles.discbedrock": "",
       "subtitles.lavapops": "",
@@ -838,6 +1020,7 @@
       "advancements.g.descr": "Mine and smelt some copper",
       "item.zeygate.rosegold_chestplate": "Rosegold Chestplate",
       "block.zeygate.mud_stone": "Mud Stone",
+      "block.zeygate.blast_proof": "Netherite Guard Block",
       "block.zeygate.copper_ore": "Copper Ore",
       "item.zeygate.liquid_iron_bucket": "LiquidIron Bucket",
       "item.zeygate.rosegold_pickaxe": "Rosegold Pickaxe",

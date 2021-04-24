@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "zeygate:block/blast_proof_activated"
+    }
+  }
+}

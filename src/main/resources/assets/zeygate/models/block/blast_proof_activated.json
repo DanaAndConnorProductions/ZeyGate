@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeygate:blocks/mega_blast_furnace_top",
+    "up": "zeygate:blocks/mega_blast_furnace_top",
+    "north": "zeygate:blocks/mega_blast_furnace_lit_smol",
+    "east": "zeygate:blocks/mega_blast_furnace_lit_smol",
+    "south": "zeygate:blocks/mega_blast_furnace_lit_smol",
+    "west": "zeygate:blocks/mega_blast_furnace_lit_smol",
+    "particle": "zeygate:blocks/mega_blast_furnace_top"
+  }
+}
