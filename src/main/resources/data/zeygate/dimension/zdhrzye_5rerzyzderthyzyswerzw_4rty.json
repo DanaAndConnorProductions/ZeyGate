@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "taiga",
+          "biome": "zeygate:aetherplains",
           "parameters": {
             "temperature": 1,
             "humidity": -1,
@@ -46,7 +46,7 @@
           }
         },
         {
-          "biome": "taiga_hills",
+          "biome": "zeygate:aetherforest",
           "parameters": {
             "temperature": -1,
             "humidity": 1,

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeygate:blocks/sparkle_sand",
+    "up": "zeygate:blocks/sparkle_sand",
+    "north": "zeygate:blocks/sparkle_sand",
+    "east": "zeygate:blocks/sparkle_sand",
+    "south": "zeygate:blocks/sparkle_sand",
+    "west": "zeygate:blocks/sparkle_sand",
+    "particle": "zeygate:blocks/sparkle_sand"
+  }
+}

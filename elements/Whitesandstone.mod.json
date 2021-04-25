@@ -1,13 +1,13 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "mega_blast_furnace_top",
-    "textureTop": "mega_blast_furnace_top",
-    "textureLeft": "mega_blast_furnace_side",
-    "textureFront": "mega_blast_furnace_side",
-    "textureRight": "mega_blast_furnace_side",
-    "textureBack": "mega_blast_furnace_side",
+    "texture": "sparkle_sandstone_bottom",
+    "textureTop": "sparkle_sandstone_top",
+    "textureLeft": "sparkle_sandstone",
+    "textureFront": "sparkle_sandstone",
+    "textureRight": "sparkle_sandstone",
+    "textureBack": "sparkle_sandstone",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -19,7 +19,7 @@
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT_MIPPED",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Netherite Guard Block",
+    "name": "White Sandstone",
     "specialInfo": [],
-    "hardness": 100.0,
-    "resistance": 3600000.0,
+    "hardness": 0.8,
+    "resistance": 0.8,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -69,21 +69,21 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "BLOCK",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "NETHERITE"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
-    "spawnParticles": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "TOTEM"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 0.3,
+    "particleAmount": 1,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

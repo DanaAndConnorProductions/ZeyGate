@@ -1,13 +1,13 @@
 {
-  "_fv": 17,
+  "_fv": 18,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
       {
-        "value": "taiga"
+        "value": "CUSTOM:Aetherplains"
       },
       {
-        "value": "taiga_hills"
+        "value": "CUSTOM:Aetherforest"
       }
     ],
     "worldGenType": "End like gen",
@@ -36,7 +36,7 @@
     },
     "portalLuminance": 5,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": ""
     },
     "igniterName": "bruh",
     "igniterTab": {
