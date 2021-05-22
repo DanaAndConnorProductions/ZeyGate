@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zeygate:blocks/rubied_basalt_top",
+    "up": "zeygate:blocks/rubied_basalt_top",
+    "north": "zeygate:blocks/rubied_basalt_side",
+    "east": "zeygate:blocks/rubied_basalt_side",
+    "south": "zeygate:blocks/rubied_basalt_side",
+    "west": "zeygate:blocks/rubied_basalt_side",
+    "particle": "zeygate:blocks/rubied_basalt_top"
+  }
+}

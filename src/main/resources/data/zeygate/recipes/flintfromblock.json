@@ -1,0 +1,13 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "zeygate:blockof_flint"
+    }
+  ],
+  "result": {
+    "item": "minecraft:flint",
+    "count": 9
+  }
+}

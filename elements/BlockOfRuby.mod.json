@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "soulstone",
+    "texture": "ruby_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Soul Stone",
+    "name": "Block Of Ruby",
     "specialInfo": [],
-    "hardness": 0.6000000000000001,
-    "resistance": 0.6,
+    "hardness": 5.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -72,11 +72,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SOUL_SOIL"
+      "value": "STONE"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,22 +101,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "soul_sand_valley"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.STONE"
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 40,
-    "minGenerateHeight": 20,
-    "maxGenerateHeight": 110
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

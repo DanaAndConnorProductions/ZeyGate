@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "soulstone",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "rubied_basalt_top",
+    "textureTop": "rubied_basalt_top",
+    "textureLeft": "rubied_basalt_side",
+    "textureFront": "rubied_basalt_side",
+    "textureRight": "rubied_basalt_side",
+    "textureBack": "rubied_basalt_side",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Soul Stone",
+    "name": "Ruby Ore",
     "specialInfo": [],
-    "hardness": 0.6000000000000001,
-    "resistance": 0.6,
+    "hardness": 1.25,
+    "resistance": 4.2,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:BlockOfRuby"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SOUL_SOIL"
+      "value": "BASALT"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -104,19 +104,15 @@
     "spawnWorldTypes": [
       "Nether"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "soul_sand_valley"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.BASALT"
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 40,
-    "minGenerateHeight": 20,
-    "maxGenerateHeight": 110
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 90
   }
 }

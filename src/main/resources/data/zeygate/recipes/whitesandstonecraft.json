@@ -1,0 +1,26 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "zeygate:white_sand"
+    },
+    "1": {
+      "item": "zeygate:white_sand"
+    },
+    "2": {
+      "item": "zeygate:white_sand"
+    },
+    "3": {
+      "item": "zeygate:white_sand"
+    }
+  },
+  "result": {
+    "item": "zeygate:whitesandstone",
+    "count": 4
+  }
+}

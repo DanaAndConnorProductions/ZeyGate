@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "zeygate:blocks/soul_stone",
-    "particle": "zeygate:blocks/soul_stone"
+    "all": "zeygate:blocks/soulstone",
+    "particle": "zeygate:blocks/soulstone"
   }
 }
