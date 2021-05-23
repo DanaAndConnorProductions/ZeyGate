@@ -1,0 +1,42 @@
+{
+  "group": "zeygate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:basalt"
+    },
+    "1": {
+      "item": "minecraft:basalt"
+    },
+    "2": {
+      "item": "minecraft:basalt"
+    },
+    "3": {
+      "item": "minecraft:blaze_powder"
+    },
+    "4": {
+      "item": "minecraft:blaze_powder"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "6": {
+      "item": "minecraft:magma_block"
+    },
+    "7": {
+      "item": "minecraft:magma_block"
+    },
+    "8": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "zeygate:blaststone",
+    "count": 5
+  }
+}

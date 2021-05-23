@@ -15,15 +15,25 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
-    "customBoundingBox": false,
+    "customBoundingBox": true,
     "disableOffset": false,
-    "boundingBoxes": [],
-    "name": "Grass Blade Hidden",
+    "boundingBoxes": [
+      {
+        "mx": 4.0,
+        "my": 0.0,
+        "mz": 4.0,
+        "Mx": 10.0,
+        "My": 2.0,
+        "Mz": 10.0,
+        "subtract": false
+      }
+    ],
+    "name": "Tool Bobber",
     "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
     },
-    "hardness": 0.4,
+    "hardness": 0.5,
     "resistance": 0.0,
     "luminance": 0,
     "unbreakable": false,
@@ -43,7 +53,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XZ",
+    "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "flammability": 10,
     "fireSpreadSpeed": 10,

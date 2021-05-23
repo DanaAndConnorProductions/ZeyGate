@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "soulstone",
+    "texture": "soul_stone",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -34,8 +34,8 @@
     ],
     "name": "Soul Stone",
     "specialInfo": [],
-    "hardness": 0.6000000000000001,
-    "resistance": 0.6,
+    "hardness": 0.7000000000000001,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -114,9 +114,9 @@
         "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 40,
+    "frequencyPerChunks": 16,
+    "frequencyOnChunk": 50,
     "minGenerateHeight": 20,
-    "maxGenerateHeight": 110
+    "maxGenerateHeight": 120
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "zeygate:blocks/flint_block",
-    "particle": "zeygate:blocks/flint_block"
+    "all": "zeygate:blocks/flint_blockv2",
+    "particle": "zeygate:blocks/flint_blockv2"
   }
 }

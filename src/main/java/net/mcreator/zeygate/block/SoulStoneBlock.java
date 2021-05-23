@@ -59,7 +59,7 @@ public class SoulStoneBlock extends ZeygateModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SOUL_SOIL).hardnessAndResistance(0.6000000000000001f, 0.6f)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.SOUL_SOIL).hardnessAndResistance(0.7000000000000001f, 2f)
 					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("soul_stone");
 		}
@@ -106,8 +106,8 @@ public class SoulStoneBlock extends ZeygateModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 40)).range(110)
-					.square().func_242731_b(10);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 50)).range(120)
+					.square().func_242731_b(16);
 			event.getRegistry().register(feature.setRegistryName("soul_stone"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("zeygate:soul_stone"), configuredFeature);
 		}

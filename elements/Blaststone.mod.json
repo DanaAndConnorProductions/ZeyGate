@@ -2,14 +2,14 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "treasure_ice",
-    "textureTop": "treasure_ice",
-    "textureLeft": "treasure_ice_side",
-    "textureFront": "treasure_ice_side",
-    "textureRight": "treasure_ice_side",
-    "textureBack": "treasure_ice_side",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "blaststone",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Teasure Ice",
+    "name": "Blaststone",
     "specialInfo": [],
     "hardness": 3.0,
-    "resistance": 4.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,16 +43,16 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:IceSickle"
+      "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "PACKED_ICE"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -66,17 +66,17 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.7,
+    "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "BASALT"
     },
-    "luminance": 0,
+    "luminance": 3,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,24 +101,27 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "BlaststoneBlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "BlaststoneBlockDestroyedByExplosion"
+    },
+    "onRedstoneOn": {
+      "name": "BlaststoneRedstoneOn"
+    },
     "spawnWorldTypes": [
-      "Surface"
+      "Nether"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.ICE"
-      },
-      {
-        "value": "Blocks.PACKED_ICE"
-      },
-      {
-        "value": "Blocks.BLUE_ICE"
+        "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 15,
-    "frequencyOnChunk": 1,
-    "minGenerateHeight": 30,
-    "maxGenerateHeight": 88
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 10,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 25
   }
 }
